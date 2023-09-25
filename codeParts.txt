@@ -1,0 +1,26 @@
+const largestPopulation = () =>{
+  let largestPopulationCountry; 
+  for (const border of selectedCountry.borders) {
+    const neightbourCountry = countries.find((elem) => {
+      return elem.cca3 === border;
+    });
+    console.log(neightbourCountry);
+    if(!largestPopulationCountry){
+      largestPopulationCountry = neightbourCountry;
+    }else if(neightbourCountry.population > largestPopulationCountry.population){
+      largestPopulationCountry = neightbourCountry;
+    }
+  }
+  console.log(largestPopulationCountry);
+
+
+if(document.querySelector(`#country`).hasChildNodes()){
+    document.querySelector(`#population`).removeAttribute("hidden");
+
+}
+}
+
+
+ if(document.querySelector(`#country`).hasChildNodes()){
+      document.querySelector(`#area`).removeAttribute("hidden");
+    }

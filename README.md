@@ -12,4 +12,4 @@ Using the data located in the "data.js" file, we created a website which allows 
 🟣 the neighbour with the largest population, 
 🟣 the neighbour with the largest area.
 
-There is also an option to select a translation in multiple availble languages.
+There is also an option to select a translation in multiple available languages.
